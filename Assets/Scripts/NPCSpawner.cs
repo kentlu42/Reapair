@@ -11,6 +11,8 @@ public class NPCSpawner : MonoBehaviour
     //Spawn
     private float timer = 1f;
     private int maxTimeToSpawn = 10;
+    private int numClones = 0;
+    private int maxClones = 10;
     
     //Coroutine
     bool waitForTime = false;
@@ -45,23 +47,13 @@ public class NPCSpawner : MonoBehaviour
     {
         int spawnerRandomNum = UnityEngine.Random.Range(0, spawners.Length);
         int NPCRandomNum = UnityEngine.Random.Range(0, npc.Length);
-        //int timeBetweenSpawns = UnityEngine.Random.Range(0, maxTimeToSpawn);
-        int timeBetweenSpawns = 1;
-        //GameObject enemy = Instantiate( npc[NPCRandomNum], spawners[spawnerRandomNum].transform.position, Quaternion.identity ) as GameObject;
+        int timeBetweenSpawns = UnityEngine.Random.Range(0, maxTimeToSpawn);
 
-        /*Collider[] hitColliders = Physics.OverlapSphere(spawners[spawnerRandomNum].transform.position, .25f);
-        if (hitColliders.Length == 0)   //check if spawner isnt being blocked
+        RaycastHit2D hit = Physics2D.Raycast(spawners[spawnerRandomNum].transform.position, Vector2.zero);
+        if (hit.collider == null && numClones < maxClones)   //check if spawn point has anyone on it. 
         {
-            GameObject enemy = Instantiate( npc[NPCRandomNum], spawners[spawnerRandomNum].transform.position, Quaternion.identity ) as GameObject;
-        }*/
-
-        if(!Physics.CheckSphere(transform.position, .1f))
-        {
-            GameObject enemy = Instantiate(npc[0], spawners[0].transform.position, Quaternion.identity) as GameObject;
-        }
-        else
-        {
-            Debug.Log("Couldn't spawn");
+            numClones++;
+            GameObject enemy = Instantiate(npc[NPCRandomNum], spawners[spawnerRandomNum].transform.position, Quaternion.identity) as GameObject;
         }
 
         yield return new WaitForSeconds(timeBetweenSpawns);
