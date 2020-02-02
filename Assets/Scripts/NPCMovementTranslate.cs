@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class NPCMovementTranslate : MonoBehaviour
 {
-    private Rigidbody2D rb2d;
     private Animator animator;
 
     //Translate implementation of movement
     private float timeLeftTillMove;
     private float resetTimer = 1;
-    private Vector3 playerPosition;
 
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
@@ -30,24 +27,37 @@ public class NPCMovementTranslate : MonoBehaviour
         if (timeLeftTillMove <= 0)
         {
             int randomNum = Random.Range(0, 4); //range 0-3
-            playerPosition = transform.position;
             if (randomNum == 0)  //up
             {
-                //(transform.position.y+1).tag("Hazard")
-                transform.Translate(0f, 1f, 0f);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.up);
+                if (hit.collider.name != "Border" && hit.collider.name != "Player(clone)")   //check if spawn point has anyone on it. 
+                {
+                    transform.Translate(Vector2.up);
+                }
             }
             else if (randomNum == 1) //down
             {
-                transform.Translate(0f, -1f, 0f);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down);
+                if (hit.collider.name != "Border" && hit.collider.name != "Player(clone)")   //check if spawn point has anyone on it. 
+                {
+                    transform.Translate(Vector2.down);
+                }
             }
             else if (randomNum == 2) //left
             {
-                transform.Translate(-1f, 0f, 0f);
-
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left);
+                if (hit.collider.name != "Border" && hit.collider.name != "Player(clone)")   //check if spawn point has anyone on it. 
+                {
+                    transform.Translate(Vector2.left);
+                }
             }
             else if (randomNum == 3)//right
             {
-                transform.Translate(1f, 0f, 0f);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right);
+                if (hit.collider.name != "Border" && hit.collider.name != "Player(clone)")   //check if spawn point has anyone on it. 
+                {
+                    transform.Translate(Vector2.right);
+                }
             }
             timeLeftTillMove = resetTimer;
         }

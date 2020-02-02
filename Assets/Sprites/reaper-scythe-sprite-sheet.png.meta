@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: f79b8704839b4bc4e94e02449b95a64e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4358601187940591628
+    second: reaper-scythe-sprite-sheet_0
+  - first:
+      213: -3483795959087395342
+    second: reaper-scythe-sprite-sheet_1
+  - first:
+      213: 586558611740608627
+    second: reaper-scythe-sprite-sheet_2
+  - first:
+      213: -5870160562195606664
+    second: reaper-scythe-sprite-sheet_3
+  - first:
+      213: 6435320340486623233
+    second: reaper-scythe-sprite-sheet_4
+  - first:
+      213: 8627449656341448049
+    second: reaper-scythe-sprite-sheet_5
+  - first:
+      213: 909178734014181763
+    second: reaper-scythe-sprite-sheet_6
+  - first:
+      213: -4173628508014105192
+    second: reaper-scythe-sprite-sheet_7
+  - first:
+      213: 1110311799957546971
+    second: reaper-scythe-sprite-sheet_8
+  - first:
+      213: -4196937461033805990
+    second: reaper-scythe-sprite-sheet_9
+  - first:
+      213: -8843220286637427363
+    second: reaper-scythe-sprite-sheet_10
+  - first:
+      213: -525323258150220040
+    second: reaper-scythe-sprite-sheet_11
+  - first:
+      213: -5869584127853559736
+    second: reaper-scythe-sprite-sheet_12
+  - first:
+      213: -191782729550572301
+    second: reaper-scythe-sprite-sheet_13
+  - first:
+      213: 4601094017374574208
+    second: reaper-scythe-sprite-sheet_14
+  - first:
+      213: 8356875668851461315
+    second: reaper-scythe-sprite-sheet_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 30
+        width: 287
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c086bc400bcdc7c30800000000000000
+      internalID: 4358601187940591628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 30
+        width: 277
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd87ac780217afc0800000000000000
+      internalID: -3483795959087395342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 32
+        width: 277
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378cebc13ffd32800800000000000000
+      internalID: 586558611740608627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 32
+        width: 284
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d2d3f110098ea0800000000000000
+      internalID: -5870160562195606664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 22
+        width: 263
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1001d8ef0c9de4950800000000000000
+      internalID: 6435320340486623233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 32
+        width: 216
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1754cc390cbdab770800000000000000
+      internalID: 8627449656341448049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 32
+        width: 212
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3813146dd3d0e9c00800000000000000
+      internalID: 909178734014181763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 30
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d206b1cfa4416c0800000000000000
+      internalID: -4173628508014105192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 29
+        width: 263
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7e46a03be986f00800000000000000
+      internalID: 1110311799957546971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 22
+        width: 235
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57dc829d9b71c5c0800000000000000
+      internalID: -4196937461033805990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 15
+        width: 216
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55b270b002964580800000000000000
+      internalID: -8843220286637427363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 12
+        width: 277
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe84bda74da5b8f0800000000000000
+      internalID: -525323258150220040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5257
+        y: 22
+        width: 303
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8408408855c0b8ea0800000000000000
+      internalID: -5869584127853559736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5692
+        y: 22
+        width: 283
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f45513af96a65df0800000000000000
+      internalID: -191782729550572301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 6121
+        y: 22
+        width: 297
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08659c391ae5adf30800000000000000
+      internalID: 4601094017374574208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper-scythe-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6549
+        y: 30
+        width: 296
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc0ff9e42699f370800000000000000
+      internalID: 8356875668851461315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
