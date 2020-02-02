@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class NPCMovementTranslate : MonoBehaviour
 {
-    private Rigidbody2D rb2d;
     private Animator animator;
 
     //Translate implementation of movement
@@ -13,7 +12,6 @@ public class NPCMovementTranslate : MonoBehaviour
 
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
@@ -69,7 +67,7 @@ public class NPCMovementTranslate : MonoBehaviour
     {
         if (other.CompareTag("Hazard"))
         {
-            Debug.Log("Touched");
+            //Debug.Log("Touched");
             //animator.SetBool("isDead", true);
         }
     }

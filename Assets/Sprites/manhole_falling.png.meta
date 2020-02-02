@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 670edfcfec5b7e144ab073a7e703a1bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7559790706499091160
+    second: manhole_falling_0
+  - first:
+      213: 6791159981632108367
+    second: manhole_falling_1
+  - first:
+      213: 2134878556067795659
+    second: manhole_falling_2
+  - first:
+      213: 8043136852216158064
+    second: manhole_falling_3
+  - first:
+      213: 7495648247002625824
+    second: manhole_falling_4
+  - first:
+      213: -1093821036073442953
+    second: manhole_falling_5
+  - first:
+      213: -7805450279454206954
+    second: manhole_falling_6
+  - first:
+      213: -5749975137302661155
+    second: manhole_falling_7
+  - first:
+      213: 8554552505280206290
+    second: manhole_falling_8
+  - first:
+      213: -8918653028661847074
+    second: manhole_falling_9
+  - first:
+      213: -678746436369065705
+    second: manhole_falling_10
+  - first:
+      213: 4096205060244094890
+    second: manhole_falling_11
+  - first:
+      213: -2148929286422252010
+    second: manhole_falling_12
+  - first:
+      213: -7828930710857714298
+    second: manhole_falling_13
+  - first:
+      213: -174658809982929101
+    second: manhole_falling_14
+  - first:
+      213: -1323950613460709996
+    second: manhole_falling_15
+  - first:
+      213: 3581048125351008923
+    second: manhole_falling_16
+  - first:
+      213: -2815795715079766540
+    second: manhole_falling_17
+  - first:
+      213: -673052622513799899
+    second: manhole_falling_18
+  - first:
+      213: 6014625805626256206
+    second: manhole_falling_19
+  - first:
+      213: -1355722366526798538
+    second: manhole_falling_20
+  - first:
+      213: -1461693084095509599
+    second: manhole_falling_21
+  - first:
+      213: -7880962449480652799
+    second: manhole_falling_22
+  - first:
+      213: 3711935895217936935
+    second: manhole_falling_23
+  - first:
+      213: 43795318018213874
+    second: manhole_falling_24
+  - first:
+      213: 6789042892517925196
+    second: manhole_falling_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: manhole_falling_7
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 0
+        width: 248
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd73fb9c31cf330b0800000000000000
+      internalID: -5749975137302661155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 23
+        width: 249
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d597a9fd20e7b670800000000000000
+      internalID: 8554552505280206290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_9
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 23
+        width: 253
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb16afc2549a3480800000000000000
+      internalID: -8918653028661847074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 23
+        width: 247
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163e5313387d22e0800000000000000
+      internalID: -2148929286422252010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 25
+        width: 248
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a102bfb4072b130800000000000000
+      internalID: 3581048125351008923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_17
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 249
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd7a9247b84ce8d0800000000000000
+      internalID: -2815795715079766540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_20
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 25
+        width: 248
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6354e19c0b18f2de0800000000000000
+      internalID: -1355722366526798538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manhole_falling_21
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 25
+        width: 249
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab87d762e507bbe0800000000000000
+      internalID: -1461693084095509599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
