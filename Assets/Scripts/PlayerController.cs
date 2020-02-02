@@ -9,12 +9,14 @@ public class PlayerController : MonoBehaviour
     private Animator animator;   //let PlayerAttack(child) access but not other classes
     
     //movement
-    public float moveSpeed = 5f;
+    private float moveSpeed = 5f;
     private Vector2 movement;
+    //private bool faceR = true;
 
     //attack
     private float timeLeftTillAttack;
     public float resetAttackCooldown;
+
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
@@ -29,26 +31,28 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if(name == "Player")
+        if (name == "Player1")
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
-            if (timeLeftTillAttack <= 0) //attack
+            animator.SetFloat("speed", Mathf.Abs(movement.x));
+
+            if (timeLeftTillAttack <= 0)
             {
-                timeLeftTillAttack = resetAttackCooldown;
                 if (Input.GetButtonDown("Attack"))
                 {
-                    /*Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
-                    for( int i=0; i<enemiesToDamage.Length; i++)
+                    animator.SetBool("isAttacking", true);
+                    Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                    for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
-                        enemiesToDamage[i].GetComponent<Enemy>.health -= danage;
-                    }*/
-                    Debug.Log("attacked");
-                    //animator.SetBool("");
+                        Destroy(enemiesToDamage[i].gameObject);
+                    }
+                    timeLeftTillAttack = resetAttackCooldown;
                 }
             }
             else
             {
+                animator.SetBool("isAttacking", false);
                 timeLeftTillAttack -= Time.deltaTime;
             }
         }
@@ -56,29 +60,27 @@ public class PlayerController : MonoBehaviour
         {
             movement.x = Input.GetAxisRaw("Horizontal2");
             movement.y = Input.GetAxisRaw("Vertical2");
+            animator.SetFloat("speed", Mathf.Abs(movement.x));
+
             if (timeLeftTillAttack <= 0) //attack
             {
-                timeLeftTillAttack = resetAttackCooldown;
                 if (Input.GetButtonDown("Attack2"))
                 {
-                    /*Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                    animator.SetBool("isAttacking", true);
+                    Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                     for( int i=0; i<enemiesToDamage.Length; i++)
                     {
-                        enemiesToDamage[i].GetComponent<Enemy>.health -= danage;
-                    }*/
-                    Debug.Log("attacked");
-                    //animator.SetBool("");
+                        Destroy(enemiesToDamage[i]);
+                    }
+                    timeLeftTillAttack = resetAttackCooldown;
                 }
             }
             else
             {
+                animator.SetBool("isAttacking", false);
                 timeLeftTillAttack -= Time.deltaTime;
             }
         }
-
-        //animator.SetFloat("Horizontal", movement.x);
-        //animator.SetFloat("Vertical", movement.y);
-        //animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     void FixedUpdate()
@@ -89,7 +91,7 @@ public class PlayerController : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPos.position, attackRange);
-        //Gizmos.DrawWireCube(attackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
+        //Gizmos.DrawWireSphere(attackPos.position, attackRange);
+        Gizmos.DrawWireCube(attackPos.position, new Vector2(attackRangeX, attackRangeY));
     }
 }

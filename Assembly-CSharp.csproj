@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\NPCMovementTranslate.cs" />
      <Compile Include="Assets\Scripts\NPCSpawner.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\instructionback.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/kentc/Documents/GitHub/Reapair/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
